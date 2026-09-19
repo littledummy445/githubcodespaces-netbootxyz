@@ -1,14 +1,11 @@
 <h1 align="center">Netboot.xyz<br />
 <div align="center">
-<a href="https://github.com/netbootxyz/netboot.xyz"><img src="https://github.com/netbootxyz/netboot.xyz/raw/master/docs/images/netbootxyz-logo.png" title="Logo" style="max-width:100%;" width="96" /></a>
+<a href="https://github.com/netbootxyz/netboot.xyz"><img src="https://raw.githubusercontent.com/netbootxyz/netboot.xyz/master/docs/images/netbootxyz-logo.png" title="Logo" style="max-width:100%;" width="96" /></a>
 </div>
 <div align="center">
 
-[![Build]][build_url]
-[![Version]][tag_url]
-[![Size]][tag_url]
-[![Package]][pkg_url]
-[![Pulls]][hub_url]
+[![Build](https://github.com/netbootxyz/netboot.xyz/actions/workflows/build.yml/badge.svg)](https://github.com/netbootxyz/netboot.xyz/)
+[![Pulls](https://img.shields.io/docker/pulls/netbootxyz/netbootxyz.svg?style=flat&label=pulls&logo=docker)](https://hub.docker.com/r/netbootxyz/netbootxyz)
 
 </div></h1>
 
