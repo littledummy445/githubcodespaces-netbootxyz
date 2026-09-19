@@ -4,7 +4,6 @@
 </div>
 <div align="center">
 
-[![Build](https://github.com/netbootxyz/netboot.xyz/actions/workflows/build.yml/badge.svg)](https://github.com/netbootxyz/netboot.xyz/)
 [![Pulls](https://img.shields.io/docker/pulls/netbootxyz/netbootxyz.svg?style=flat&label=pulls&logo=docker)](https://hub.docker.com/r/netbootxyz/netbootxyz)
 
 </div></h1>
