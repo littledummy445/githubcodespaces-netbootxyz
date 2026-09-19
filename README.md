@@ -22,10 +22,6 @@ Netboot.xyz inside a Docker container.
 - USB passthrough and host folder sharing
 - Supports NAT, user-mode, macvlan, and macvtap networking
 
-## Video 📺
-
-[![YouTube](https://img.youtube.com/vi/xhGYobuG508/maxresdefault.jpg)](https://www.youtube.com/watch?v=xhGYobuG508)
-
 ## Usage 🐳
 
 ##### Docker Compose:
