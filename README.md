@@ -5,7 +5,6 @@
 <div align="center">
 
 [![Pulls](https://img.shields.io/docker/pulls/netbootxyz/netbootxyz.svg?style=flat&label=pulls&logo=docker)](https://hub.docker.com/r/netbootxyz/netbootxyz)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/githubcodespaces-netbootxyz)
 
 </div></h1>
 
