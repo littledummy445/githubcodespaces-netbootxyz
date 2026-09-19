@@ -1,19 +1,53 @@
-# githubcodespaces-netbootxyz
+<h1 align="center">Netboot.xyz<br />
+<div align="center">
+<a href="https://github.com/netbootxyz/netboot.xyz"><img src="https://github.com/netbootxyz/netboot.xyz/raw/master/docs/images/netbootxyz-logo.png" title="Logo" style="max-width:100%;" width="96" /></a>
+</div>
+<div align="center">
 
-Debian inside a GitHub Codespace.
+[![Build]][build_url]
+[![Version]][tag_url]
+[![Size]][tag_url]
+[![Package]][pkg_url]
+[![Pulls]][hub_url]
 
-## Overview
+</div></h1>
 
-This project makes it surprisingly easy to run a full Linux environment inside a cloud-hosted development workspace by using a QEMU-based virtual machine under the hood with `netboot.xyz`. It provides a streamlined way to install operating systems dynamically without bloating your local storage footprint.
+Netboot.xyz inside a Docker container.
 
-## Features
+## Features ✨
 
-* **Network Boot:** Powered by `netboot.xyz` iPXE loader to stream and install distributions over the network.
-* **Browser Access:** Fully interactive graphical interface accessible directly via a web-based VNC console on port 8006.
-* **Resource Efficient:** Streamline installations like Debian GNOME while keeping container storage tracking structured and modular.
+- Runs Netboot.xyz inside a Docker container
+- Automatic download and hands-free network booting
+- Supports modern and legacy operating system releases
+- Near-native performance with KVM acceleration
+- Customizable CPU, memory, and storage allocation
+- Dynamic memory allocation with memory ballooning
+- USB passthrough and host folder sharing
+- Supports NAT, user-mode, macvlan, and macvtap networking
 
-## Getting Started
+## Video 📺
 
-1. Start the container environment inside your Codespace.
-2. Connect to port 8006 using your web browser to open the VNC interface.
-3. Select and complete your desired OS installation via the network boot menu.
+[![YouTube](https://img.youtube.com/vi/xhGYobuG508/maxresdefault.jpg)](https://www.youtube.com/watch?v=xhGYobuG508)
+
+## Usage 🐳
+
+##### Docker Compose:
+
+```yaml
+services:
+  netbootxyz:
+    image: netbootxyz/netbootxyz
+    container_name: netbootxyz
+    environment:
+      VERSION: "latest"
+    devices:
+      - /dev/kvm
+      - /dev/net/tun
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - 8006:8006
+    volumes:
+      - ./netbootxyz:/storage
+    restart: always
+    stop_grace_period: 2m
