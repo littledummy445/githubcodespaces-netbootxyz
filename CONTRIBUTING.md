@@ -1,6 +1,5 @@
 ### `CONTRIBUTING.md`
 
-```markdown
 # Contributing to Netboot.xyz Codespace
 
 Thank you for your interest in contributing! Whether it's reporting a bug, suggesting a new feature, or improving documentation, contributions are always welcome.
