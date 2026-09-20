@@ -1,0 +1,6 @@
+# Local netboot storage directory
+netbootxyz/
+
+# OS specific files
+.DS_Store
+Thumbs.db
