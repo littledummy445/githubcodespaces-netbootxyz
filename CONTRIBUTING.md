@@ -14,6 +14,7 @@ Thank you for your interest in contributing! Whether it's reporting a bug, sugge
 ```
 
 **Commit your Changes**:
+```
 ```bash
 git commit -m "Add amazing feature"
 
