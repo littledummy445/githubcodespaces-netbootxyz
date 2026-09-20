@@ -49,7 +49,15 @@ services:
 ##### Docker CLI:
 
 ```bash
-docker run -it --rm --name netbootxyz -e "VERSION=latest" -p 8006:8006 --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -v "${PWD:-.}/netbootxyz:/storage" --stop-timeout 120 docker.io/netbootxyz/netbootxyz
+docker run -d --name netboot-qemu \
+  -p 8006:8006 \
+  -e "BOOT=https://boot.netboot.xyz/ipxe/netboot.xyz.iso" \
+  -e "PORT=8006" \
+  --device=/dev/kvm \
+  --device=/dev/net/tun \
+  --cap-add NET_ADMIN \
+  -v "${PWD:-.}/storage:/storage" \
+  ghcr.io/qemus/qemu:latest
 
 ```
 
