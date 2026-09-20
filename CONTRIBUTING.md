@@ -12,7 +12,7 @@ Thank you for your interest in contributing! Whether it's reporting a bug, sugge
    git checkout -b feature/amazing-feature
 
 
-**Commit your Changes**:
+3. **Commit your Changes**:
 ```bash
 git commit -m "Add amazing feature"
 
