@@ -1,3 +1,4 @@
+```markdown
 <h1 align="center">Netboot.xyz<br />
 <div align="center">
 <a href="https://github.com/netbootxyz/netboot.xyz"><img src="https://raw.githubusercontent.com/netbootxyz/netboot.xyz/master/docs/images/netbootxyz-logo.png" title="Logo" style="max-width:100%;" width="96" /></a>
