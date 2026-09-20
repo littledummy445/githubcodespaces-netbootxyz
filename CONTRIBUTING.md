@@ -11,10 +11,8 @@ Thank you for your interest in contributing! Whether it's reporting a bug, sugge
    ```bash
    git checkout -b feature/amazing-feature
 
-```
 
 **Commit your Changes**:
-```
 ```bash
 git commit -m "Add amazing feature"
 
