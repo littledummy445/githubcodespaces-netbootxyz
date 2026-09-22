@@ -14,3 +14,6 @@
 
 - After running the command above open the port that was created by **VS Code**.
 - Then the noVNC Opens and shows QEMU booting and then the netboot.xyz Menu appears.
+
+ [!TIP]
+> After the netboot.xyz screen appears, you can try Live CD option it takes up almost no space.
