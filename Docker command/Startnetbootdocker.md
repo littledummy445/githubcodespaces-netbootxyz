@@ -12,4 +12,8 @@
   ghcr.io/qemus/qemu:latest
 ```
 
-- After running the command above open the port that was created by **VS Code** to see the vnc display.
+After that command was run, follow these steps:
+* Start the container and connect to [port 8006](http://127.0.0.1:8006/?utm_source=mygithubrepo) using your web browser.
+* Select your desired operating system from the netboot.xyz iPXE menu.
+* Sit back and relax while the installation is performed over the network.
+
