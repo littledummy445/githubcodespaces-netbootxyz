@@ -10,8 +10,7 @@
   --cap-add NET_ADMIN \
   -v "${PWD:-.}/storage:/storage" \
   ghcr.io/qemus/qemu:latest
-
----
+```
 
 - After running the command above open the port that was created by **VS Code**
 - Then the noVNC Opens and shows QEMU booting and then the netboot.xyz Menu appears.
